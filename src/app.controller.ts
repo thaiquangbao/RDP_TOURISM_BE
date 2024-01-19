@@ -9,4 +9,8 @@ export class AppController {
   getHello(@Res() res: Response) {
     res.render('index');
   }
+  @Get('home')
+  getHome(@Res() res: Response) {
+    return res.render('Home/listhome');
+  }
 }

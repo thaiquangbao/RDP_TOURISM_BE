@@ -62,21 +62,7 @@ li {
     align-items: center;
 }
 
-.btn {
-    padding: .6rem 1.5rem;
-    background: var(--gradientColor);
-    border-radius: 3rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    width: 130px;
 
-}
-
-.btn a {
-    color: var(--whiteColor);
-    font-weight: 500;
-}
 
 btn:hover {
     background-color: var(--SecondaryColor);

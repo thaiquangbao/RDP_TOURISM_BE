@@ -48,22 +48,17 @@
 
 }
 
-.icon {
+.icons {
     font-size: 25px;
     color: var(--PrimaryColor);
-    transform: translateY(20px);
+    margin-right: 5px;
     width: 15%;
 
 }
 
 .childH6 {
     transform: translateX(75%);
-    width: 20%;
+    width: 40%;
 
 }
 
-@media screen and (min-width: 2560px) {
-    body {
-        zoom: 1.7;
-    }
-}

@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+        <div class="container-fluid main">
+            <div class="address">
+                <p class="title">Manager/Home</p>
+            </div>
+            <div class="col nameTable">
+                <div class="p-3 border bg-light">Manager Home</div>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item tbnav">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Manager Header
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <table class="table table-striped">
+                            <thead class="table-dark">
+                                <tr>    
+                                    <th class="select">Chọn</th>
+                                    <th >#</th>
+                                    <th  scope="col">Title1</th>
+                                    <th scope="col">Title2</th>
+                                    <th scope="col">Video Header</th>
+                                    <th scope="col">
+                                        Chỉnh sửa
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td >
+                                        <div class="form-check" style="justify-content: center;">
+                                            <input class="form-check-input" type="checkbox" >
+                                        </div>
+                                    </td>
+                                    <td class="stt" style="text-align: center;">
+                                        <span  >1</span>
+                                    </td>
+                                    <td><span>CÁC GÓI DỊCH VỤ CỦA CHÚNG TÔI</span></td>
+                                    <td><span>LỰA CHỌN KỲ NGHĨ CỦA BẠN</span></td>
+                                    <td></td>
+                                    <td style="text-align: center;">
+                                        <a href="/foods/{{this.id}}" class="btn btn-link ">Sửa</a>
+                                        <button  data-toggle="modal" data-target="#delete-modal" class="btn btn-link ">Xóa</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            
+                        </table>
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Manager Most Visited Destinations
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table table-striped">
+                                <thead class="table-dark">
+                                    <tr>    
+                                        <th class="select">Chọn</th>
+                                        <th >#</th>
+                                        <th  scope="col">Tên địa điểm</th>
+                                        <th scope="col">Vị trí</th>
+                                        <th scope="col">Giá</th>
+                                        <th scope="col">Mô tả</th>
+                                        <th scope="col">Hình ảnh</th>
+                                        <th scope="col">
+                                            Chỉnh sửa
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td >
+                                            <div class="form-check" style="justify-content: center;">
+                                                <input class="form-check-input" type="checkbox" >
+                                            </div>
+                                        </td>
+                                        <td class="stt" style="text-align: center;">
+                                            <span  >1</span>
+                                        </td>
+                                        <td><span>CÁC GÓI DỊCH VỤ CỦA CHÚNG TÔI</span></td>
+                                        <td><span>LỰA CHỌN KỲ NGHĨ CỦA BẠN</span></td>
+                                        <td class="price">
+                                            <span >3.000.000 VND</span>
+                                            
+                                        </td>
+                                        <td class="describe">
+                                            <span>
+                                                Từ năm 2010, chúng tôi mở rộng và khắp Việt Nam với hơn 10 địa điểm như SunWorld Bà Bà Hills, VinWonders Nha Trang, SunWorld Fansipan Legend, VinWonders Phú Quốc, SunWorld Hạ Long Park, SunWorld Hòn Thơm Phú Quốc, VinWonders Nam Hội An, SunWorld Núi Bà Đen Tây Ninh, Xẻo Quýt Relic Đồng Tháp, Sài Gòn Skydec, Tắm Bùn Trăm Trứng Nha Trang, MerPerle Hòn Tằm, Cầu Kính Rồng Mây...
+                                            </span>
+                                        </td>
+                                         <td style="text-align: center;">
+                                            <img class="imgPosition" src="https://res.cloudinary.com/dk41ftplg/image/upload/v1705670926/RDP_TOURISM/so3tsjhftur8xi6yoigm.jpg" alt="">
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <a href="/foods/{{this.id}}" class="btn btn-link ">Sửa</a>
+                                            <button  data-toggle="modal" data-target="#delete-modal" class="btn btn-link ">Xóa</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            
+                        </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Accordion Item #3
+                    </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

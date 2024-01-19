@@ -1,0 +1,36 @@
+.main{
+    margin-top: 4rem;
+    min-height: 1000px;
+    
+}
+th{
+    text-align: center;
+    
+}
+.select{
+    width: 30px;
+    text-align: left;
+}
+.stt{
+    width: 50px;
+}
+span{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.btn:hover{
+    color: black;
+}
+.describe{
+    max-width: 300px;
+}
+.price{
+    text-align: center;
+}
+td .imgPosition{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+
