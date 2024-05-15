@@ -1,8 +1,8 @@
 import { Body, Controller, Get, Post, Res } from "@nestjs/common";
 import { HeaderService } from "./header.service";
 import { Response } from "express";
-import { HeaderDTO } from "src/dto/Home/Header.dto";
-import { MemoryService } from "src/memory/memory.service";
+import { HeaderDTO } from "../dto/Home/Header.dto";
+import { MemoryService } from "../memory/memory.service";
 @Controller("home")
 export class HeaderController {
   constructor(

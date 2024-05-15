@@ -1,8 +1,8 @@
 import { Injectable } from "@nestjs/common";
 import { InjectModel } from "@nestjs/mongoose";
 import { Model } from "mongoose";
-import { MemoryDTO } from "src/dto/Home/Memory.dto";
-import { Memory } from "src/schema/Memory.schema";
+import { MemoryDTO } from "../dto/Home/Memory.dto";
+import { Memory } from "../schema/Memory.schema";
 
 @Injectable()
 export class MemoryService {

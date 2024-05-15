@@ -1,6 +1,6 @@
 import { Body, Controller, Param, Post, Put } from "@nestjs/common";
 import { FooterService } from "./footer.service";
-import { FooterDTO, IconsDTO } from "src/dto/Home/Footer.dto";
+import { FooterDTO, IconsDTO } from "../dto/Home/Footer.dto";
 
 @Controller("footer")
 export class FooterController {

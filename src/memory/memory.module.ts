@@ -2,7 +2,7 @@ import { Module } from "@nestjs/common";
 import { MemoryService } from "./memory.service";
 import { MemoryController } from "./memory.controller";
 import { MongooseModule } from "@nestjs/mongoose";
-import { MemorySchema } from "src/schema/Memory.schema";
+import { MemorySchema } from "../schema/Memory.schema";
 
 @Module({
   imports: [

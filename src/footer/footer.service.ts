@@ -1,9 +1,9 @@
 import { Injectable } from "@nestjs/common";
 import { InjectModel } from "@nestjs/mongoose";
 import { Model } from "mongoose";
-import { FooterDTO, IconsDTO } from "src/dto/Home/Footer.dto";
-import { Footer } from "src/schema/Footer.schema";
-import { Icons } from "src/schema/IconsLinked.schema";
+import { FooterDTO, IconsDTO } from "../dto/Home/Footer.dto";
+import { Footer } from "../schema/Footer.schema";
+import { Icons } from "../schema/IconsLinked.schema";
 @Injectable()
 export class FooterService {
   constructor(

@@ -1,6 +1,6 @@
 import { Body, Controller, Get, Post } from "@nestjs/common";
 import { MemoryService } from "./memory.service";
-import { MemoryDTO } from "src/dto/Home/Memory.dto";
+import { MemoryDTO } from "../dto/Home/Memory.dto";
 
 @Controller("memory")
 export class MemoryController {
