@@ -68,6 +68,11 @@ btn:hover {
     background-color: var(--SecondaryColor);
 }
 
+
+.first-page {
+    height: fit-content;
+}
+
 img,
 video {
     width: 100%;
@@ -79,5 +84,16 @@ input {
 }
 
 body {
-    background-color: var(--bodyColor);
+    background: var(--bodyColor);
+    height: fit-content;
+}
+
+
+
+footer {
+    background: var(--cardBG);
+    color: var(--whiteColor);
+    padding: 2rem 0;
+    text-align: center;
+    height: 100px;
 }

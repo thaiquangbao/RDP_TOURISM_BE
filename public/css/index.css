@@ -1,45 +1,56 @@
-.main{
+.main {
     margin-top: 4rem;
-    min-height: 1000px;
-    
+    height: fit-content;
+
 }
-th{
+
+th {
     text-align: center;
-    
+
 }
-.select{
+
+.select {
     width: 30px;
     text-align: left;
 }
-.stt{
+
+.stt {
     width: 50px;
 }
-span{
+
+span {
     font-family: 'Times New Roman', Times, serif;
-    
+
 }
-.btn:hover{
+
+.btn:hover {
     color: black;
 }
-.describe{
+
+.describe {
     max-width: 300px;
 }
-.price{
+
+.price {
     text-align: center;
 }
-td .imgPosition{
+
+td .imgPosition {
     max-width: 200px;
     max-height: 200px;
 }
-.binsI{
+
+.binsI {
     width: 30px;
-    
-} 
-.btn-outline-danger{
+
+}
+
+.btn-outline-danger {
     margin-right: 20px;
-}  
+}
 
 
-
-
-
+.header-form-update-header {
+    justify-content: center;
+    text-align: center;
+}

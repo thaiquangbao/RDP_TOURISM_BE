@@ -8,7 +8,7 @@ export class HeaderController {
   constructor(
     private headerService: HeaderService,
     private memoryService: MemoryService,
-  ) {}
+  ) { }
   @Post("insert")
   async insert(@Body() header: HeaderDTO) {
     const result = await this.headerService.createHeader(header);
@@ -19,5 +19,9 @@ export class HeaderController {
     const headers = await this.headerService.viewHeader();
     const memories = await this.memoryService.viewMemory();
     return res.render("Home/listhome", { headers, memories });
+  }
+  @Get("manager-header-form")
+  async form(@Res() res: Response) {
+    return res.render("Page-Form/header-form-add");
   }
 }
