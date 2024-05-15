@@ -5,7 +5,7 @@ import { HeaderModule } from "./header/header.module";
 import { MongooseModule } from "@nestjs/mongoose";
 import { ConfigModule } from "@nestjs/config";
 import { MemoryModule } from "./memory/memory.module";
-import { FooterModule } from './footer/footer.module';
+import { FooterModule } from "./footer/footer.module";
 
 @Module({
   imports: [

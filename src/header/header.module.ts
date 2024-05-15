@@ -2,15 +2,15 @@ import { Module } from "@nestjs/common";
 import { HeaderService } from "./header.service";
 import { HeaderController } from "./header.controller";
 import { MongooseModule } from "@nestjs/mongoose";
-import { HeaderSchema } from "src/schema/Header.schema";
-import { MemoryService } from "src/memory/memory.service";
-import { MemoryModule } from "src/memory/memory.module";
-import { MemorySchema } from "src/schema/Memory.schema";
-import { FooterService } from "src/footer/footer.service";
-import { FooterController } from "src/footer/footer.controller";
-import { FooterModule } from "src/footer/footer.module";
-import { FooterSchema } from "src/schema/Footer.schema";
-import { IconsSchema } from "src/schema/IconsLinked.schema";
+import { HeaderSchema } from "../schema/Header.schema";
+import { MemoryService } from "../memory/memory.service";
+import { MemoryModule } from "../memory/memory.module";
+import { MemorySchema } from "../schema/Memory.schema";
+import { FooterService } from "../footer/footer.service";
+import { FooterController } from "../footer/footer.controller";
+import { FooterModule } from "../footer/footer.module";
+import { FooterSchema } from "../schema/Footer.schema";
+import { IconsSchema } from "../schema/IconsLinked.schema";
 
 @Module({
   imports: [

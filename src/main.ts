@@ -5,8 +5,8 @@ import { NestExpressApplication } from "@nestjs/platform-express/interfaces";
 import handlebars from "handlebars";
 import * as fs from "fs";
 import * as path from "path";
-import  hbs from "hbs";
-import  hbsUtils from "hbs-utils";
+import hbs from "hbs";
+import hbsUtils from "hbs-utils";
 import { ValidationPipe } from "@nestjs/common";
 //import hbsUtils from 'hbs-utils';
 async function bootstrap() {
